@@ -1,3 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+}
+
+
+.Header {
+    background: #000;
+    margin: 0;
+}
+
+.Header img {
+    width: 10%;
+    animation: fadeIn 3s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+}
+
+
+
 .Capture1 {
     position: relative;
     background: #000;
